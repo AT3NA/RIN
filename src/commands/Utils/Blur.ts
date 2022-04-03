@@ -12,7 +12,7 @@ export default class Command extends BaseCommand {
             category: 'utils',
             usage: `${client.config.prefix}blur [(as caption | quote)[image] | @mention]`,
             dm: true,
-            baseXp: 30
+            baseXp: 500000
         })
     }
 
